@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	    <string name="send">发送</string>
+	    <string name="scanning">正在扫描:</string>
+	    <string name="my_ip">本机地址:</string>
+	    <string name="choose_device_title">设备</string>
+	    <string name="connect_failed"> %1$s 连接失败!</string>
+	    <string name="transferring">传输中</string>
+	    <string name="cancel">取消</string>
+	    <string name="success"> 成功!</string>
+	    <string name="fail"> 失败!</string>
+	    <string name="name">名字:</string>
+	    <string name="size">大小:</string>
+	    <string name="from">从:</string>
+	    <string name="to">到:</string>
+	    <string name="progress">进度:</string>
+	    <string name="item"> 项</string>
+	    <string name="alert">通知</string>
+	    <string name="ok">OK</string>
+	    <string name="confirm">确认</string>
+	    <string name="no_wifi">Wifi热点不可用!</string>
+	    <string name="no_device">没有扫描到设备, 按以下步骤连接设备:\n\n1. 将目标设备连接到同一个wifi热点
+	        \n2. 打开目标设备中的"应用备份和还原"\n3. 点击刷新按钮重新扫描.
+	        </string>
+	    <string name="will_send">向你发送</string>
+</resources>

@@ -1,0 +1,32 @@
+<mobi.infolife.wifitransfer.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/device" />
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="16sp" 
+        android:layout_weight="1">
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dip"
+        android:clickable="false"
+        android:focusable="false" />
+
+</mobi.infolife.wifitransfer.CheckableLinearLayout>

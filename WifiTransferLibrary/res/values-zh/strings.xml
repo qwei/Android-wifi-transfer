@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="send">發送</string>
+	    <string name="scanning">正在掃描:</string>
+	    <string name="my_ip">本機地址:</string>
+	    <string name="choose_device_title">設備</string>
+	    <string name="connect_failed"> %1$s 連接失敗!</string>
+	    <string name="transferring">傳輸中</string>
+	    <string name="cancel">取消</string>
+	    <string name="success"> 成功!</string>
+	    <string name="fail"> 失敗!</string>
+	    <string name="name">名字:</string>
+	    <string name="size">大小:</string>
+	    <string name="from">從:</string>
+	    <string name="to">到:</string>
+	    <string name="progress">進度:</string>
+	    <string name="item"> 項</string>
+	    <string name="alert">通知</string>
+	    <string name="ok">OK</string>
+	    <string name="confirm">確認</string>
+	    <string name="no_wifi">Wifi熱點不可用!</string>
+	    <string name="no_device">沒有掃描到設備, 按以下步驟連接設備:\n\n1. 將目標設備連接到同一個Wifi熱點
+	        \n2. 打開目標設備中的"應用備份與還原"\n3. 點擊刷新按鈕重新掃描.
+	        </string>
+	        <string name="will_send">向你發送</string>
+</resources>

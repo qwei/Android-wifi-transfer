@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	    <string name="send">SEND</string>
+	    <string name="scanning">Scanning:</string>
+	    <string name="my_ip">My IP:</string>
+	    <string name="choose_device_title">Choose device</string>
+	    <string name="connect_failed">Connect %1$s failed!</string>
+	    <string name="transferring">Transferring</string>
+	    <string name="cancel">Cancel</string>
+	    <string name="success"> succeed!</string>
+	    <string name="fail"> fail!</string>
+	    <string name="name">Name:</string>
+	    <string name="size">Size:</string>
+	    <string name="from">From:</string>
+	    <string name="to">To:</string>
+	    <string name="progress">Progress:</string>
+	    <string name="item"> items</string>
+	    <string name="alert">Alert</string>
+	    <string name="ok">OK</string>
+	    <string name="confirm">Confirm</string>
+	    <string name="no_wifi">Wifi is not available!</string>
+	    <string name="no_device">No devices detected on the same Wi-Fi network. Please follow the steps below to try again:
+			\n\n1. Connect your target device to the same Wi-Fi network
+	        \n2. Open "App Backup" on your target device
+	        \n3. Click refresh button to re-scan devices
+	        </string>
+	    <string name="will_send"> will send you </string>
+
+</resources>

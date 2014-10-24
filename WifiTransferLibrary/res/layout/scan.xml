@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/scan_bg" >
+
+    <TextView
+        android:id="@+id/local_ip"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/status_bar_bg"
+        android:gravity="center"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/my_ip"
+        android:textColor="#ff898989"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:id="@+id/scanning_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/local_ip"
+        android:background="@color/status_bar_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/scaning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" 
+            style="@android:style/Widget.ProgressBar.Small.Inverse"/>
+
+        <TextView
+            android:id="@+id/scanning_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scanning"
+            android:textColor="#ff898989"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/device_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanning_layout"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:choiceMode="singleChoice"
+        android:divider="#ff363636"
+        android:dividerHeight="1px" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/no_device"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="left|center_vertical"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:text="@string/no_device" 
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/send_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/send_bg_selector"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:textSize="18sp"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</RelativeLayout>

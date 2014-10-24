@@ -1,0 +1,7 @@
+<resources>
+
+   <color name="scan_bg">#FF252525</color>
+   <color name="status_bar_bg">#ff464646</color>
+   <color name="split_action_bg">#555555</color>
+    <color name="split_action_pressed">#75c147</color>
+</resources>
